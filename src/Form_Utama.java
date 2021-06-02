@@ -60,6 +60,12 @@ public class Form_Utama extends javax.swing.JFrame {
         aboutPanel = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -257,6 +263,24 @@ public class Form_Utama extends javax.swing.JFrame {
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/about_1.png"))); // NOI18N
 
+        jLabel9.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel9.setText("Developped By");
+
+        jLabel10.setFont(new java.awt.Font("Viner Hand ITC", 0, 11)); // NOI18N
+        jLabel10.setText("Eko Wibowo");
+
+        jLabel11.setFont(new java.awt.Font("Viner Hand ITC", 0, 11)); // NOI18N
+        jLabel11.setText("Emas Aef Alghanie");
+
+        jLabel12.setFont(new java.awt.Font("Viner Hand ITC", 0, 11)); // NOI18N
+        jLabel12.setText("Muhammad Helmi Assura");
+
+        jLabel13.setFont(new java.awt.Font("Viner Hand ITC", 0, 11)); // NOI18N
+        jLabel13.setText("Ahmad Umar Sidik");
+
+        jLabel14.setFont(new java.awt.Font("Viner Hand ITC", 0, 11)); // NOI18N
+        jLabel14.setText("Febry fatullah Rosyid");
+
         javax.swing.GroupLayout aboutPanelLayout = new javax.swing.GroupLayout(aboutPanel);
         aboutPanel.setLayout(aboutPanelLayout);
         aboutPanelLayout.setHorizontalGroup(
@@ -264,11 +288,21 @@ public class Form_Utama extends javax.swing.JFrame {
             .addGroup(aboutPanelLayout.createSequentialGroup()
                 .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(aboutPanelLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jLabel6))
-                    .addGroup(aboutPanelLayout.createSequentialGroup()
                         .addGap(215, 215, 215)
-                        .addComponent(jLabel5)))
+                        .addComponent(jLabel5))
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel9)
+                            .addGroup(aboutPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel6)
+                                .addGap(131, 131, 131)
+                                .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel13)
+                                    .addComponent(jLabel14)
+                                    .addComponent(jLabel12)
+                                    .addComponent(jLabel11)
+                                    .addComponent(jLabel10))))))
                 .addContainerGap(225, Short.MAX_VALUE))
         );
         aboutPanelLayout.setVerticalGroup(
@@ -276,8 +310,23 @@ public class Form_Utama extends javax.swing.JFrame {
             .addGroup(aboutPanelLayout.createSequentialGroup()
                 .addGap(42, 42, 42)
                 .addComponent(jLabel5)
-                .addGap(33, 33, 33)
-                .addComponent(jLabel6)
+                .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel6))
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addGap(59, 59, 59)
+                        .addComponent(jLabel9)
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel14)))
                 .addContainerGap(111, Short.MAX_VALUE))
         );
 
@@ -387,6 +436,11 @@ else{
     private javax.swing.JComboBox<String> cmbJenis;
     private javax.swing.JPanel homePanel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -394,6 +448,7 @@ else{
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
