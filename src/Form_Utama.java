@@ -60,6 +60,12 @@ public class Form_Utama extends javax.swing.JFrame {
         aboutPanel = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -252,10 +258,28 @@ public class Form_Utama extends javax.swing.JFrame {
 
         aboutPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Viner Hand ITC", 1, 18)); // NOI18N
         jLabel5.setText("APLIKASI DATA MAHASISWA");
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/about_1.png"))); // NOI18N
+
+        jLabel9.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel9.setText("DEVELOPPED BY");
+
+        jLabel10.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel10.setText("EKO WIBOWO");
+
+        jLabel11.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel11.setText("FEBRY FATULLAH RASYID");
+
+        jLabel12.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel12.setText("MUHAMAD HELMI ASSURA");
+
+        jLabel13.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel13.setText("AHMAD UMAR SIDIK");
+
+        jLabel14.setFont(new java.awt.Font("Viner Hand ITC", 1, 11)); // NOI18N
+        jLabel14.setText("EMAS AEF ALGHANIE");
 
         javax.swing.GroupLayout aboutPanelLayout = new javax.swing.GroupLayout(aboutPanel);
         aboutPanel.setLayout(aboutPanelLayout);
@@ -265,20 +289,45 @@ public class Form_Utama extends javax.swing.JFrame {
                 .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(aboutPanelLayout.createSequentialGroup()
                         .addGap(20, 20, 20)
-                        .addComponent(jLabel6))
+                        .addComponent(jLabel6)
+                        .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(aboutPanelLayout.createSequentialGroup()
+                                .addGap(134, 134, 134)
+                                .addComponent(jLabel9))
+                            .addGroup(aboutPanelLayout.createSequentialGroup()
+                                .addGap(77, 77, 77)
+                                .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel12)
+                                    .addComponent(jLabel10)
+                                    .addComponent(jLabel11)
+                                    .addComponent(jLabel13)
+                                    .addComponent(jLabel14)))))
                     .addGroup(aboutPanelLayout.createSequentialGroup()
-                        .addGap(215, 215, 215)
+                        .addGap(151, 151, 151)
                         .addComponent(jLabel5)))
-                .addContainerGap(225, Short.MAX_VALUE))
+                .addContainerGap(204, Short.MAX_VALUE))
         );
         aboutPanelLayout.setVerticalGroup(
             aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(aboutPanelLayout.createSequentialGroup()
-                .addGap(42, 42, 42)
+                .addGap(40, 40, 40)
                 .addComponent(jLabel5)
-                .addGap(33, 33, 33)
-                .addComponent(jLabel6)
-                .addContainerGap(111, Short.MAX_VALUE))
+                .addGap(35, 35, 35)
+                .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel6)
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel9)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel14)))
+                .addContainerGap(101, Short.MAX_VALUE))
         );
 
         jPanel3.add(aboutPanel, "card3");
@@ -320,6 +369,7 @@ public class Form_Utama extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnHapusfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusfieldActionPerformed
+cmbJenis.setSelectedIndex(0);
 txtNama.setText("");
 txtNim.setText("");
 txtAlamat.setText("");
@@ -387,6 +437,11 @@ else{
     private javax.swing.JComboBox<String> cmbJenis;
     private javax.swing.JPanel homePanel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -394,6 +449,7 @@ else{
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -405,7 +461,7 @@ else{
     private javax.swing.JTextField txtNim;
     // End of variables declaration//GEN-END:variables
 int baris = 0;
-static Object kolom[] = {"Nama","NIM","Jenis Kelamin","Grade"};
+static Object kolom[] = {"Nama","NIM","Jenis Kelamin","Alamat"};
     DefaultTableModel model = new DefaultTableModel(kolom,baris);
 
     private void setIconImage() {
