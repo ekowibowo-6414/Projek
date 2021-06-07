@@ -464,7 +464,7 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace pref="225" max="32767" attributes="0"/>
+                          <EmptySpace pref="140" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -493,7 +493,7 @@
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="111" max="32767" attributes="0"/>
+                          <EmptySpace pref="101" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -502,7 +502,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tw Cen MT Condensed Extra Bold" size="18" style="1"/>
+                      <Font name="Viner Hand ITC" size="18" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="APLIKASI DATA MAHASISWA"/>
                   </Properties>

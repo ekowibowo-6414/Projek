@@ -258,7 +258,7 @@ public class Form_Utama extends javax.swing.JFrame {
 
         aboutPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Viner Hand ITC", 1, 18)); // NOI18N
         jLabel5.setText("APLIKASI DATA MAHASISWA");
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/about_1.png"))); // NOI18N
@@ -303,7 +303,7 @@ public class Form_Utama extends javax.swing.JFrame {
                                     .addComponent(jLabel12)
                                     .addComponent(jLabel11)
                                     .addComponent(jLabel10))))))
-                .addContainerGap(225, Short.MAX_VALUE))
+                .addContainerGap(140, Short.MAX_VALUE))
         );
         aboutPanelLayout.setVerticalGroup(
             aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -327,7 +327,7 @@ public class Form_Utama extends javax.swing.JFrame {
                         .addComponent(jLabel13)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel14)))
-                .addContainerGap(111, Short.MAX_VALUE))
+                .addContainerGap(101, Short.MAX_VALUE))
         );
 
         jPanel3.add(aboutPanel, "card3");
