@@ -369,6 +369,7 @@ public class Form_Utama extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnHapusfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusfieldActionPerformed
+cmbJenis.setSelectedIndex(0);
 txtNama.setText("");
 txtNim.setText("");
 txtAlamat.setText("");
