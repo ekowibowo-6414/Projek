@@ -1,0 +1,8 @@
+Aplikasi ini disusun sebagai pemenuhan tugas projek akhir 
+Mata Kuliah PBO semester 2
+Cara penggunaan:
+1.extract terlebih dahulu filenya
+2.Buka folder src
+3.Cari app.exe
+4.Jalankan aplikasi
+======terima kasih=======
